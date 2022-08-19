@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Layout Forming Using Flex Box</title>
+<style>
+   body{
+   text-align:center;}
+        header{
+	           background-color:white;
+			   text-align:center;
+			   height:100px;
+			 }
+	section,aside,header,footer{
+	                       padding:20px;
+			 }
+	    .menu{
+	          background-color:white;
+			  text-align:justify;
+			 flex-basis:250px;
+			 }
+	 .content{
+	          background-color:white;
+			  text-align:justify;
+			  flex-grow:1;
+			  flex-basis:250px;
+			  
+			 }
+		aside{
+		      background-color:white;
+			  flex-basis:250px;
+			  color:black;
+			 }
+			 aside > a {
+			            color:black;
+						}
+	    footer{
+	          background-color:violet;
+			  }
+	  .arrange{
+	           display:flex;
+			   height:1250px;
+			  }
+
+</style>
+</head>
+<body>
+	<header>
+	       <h1>Courtallam (குற்றாலம்)</h1>
+	</header>
+    <main class="arrange">
+        <section class="menu">
+            <h3>Tasty Dishes In Tenkasi</h3>
+                <ul>
+                    <li>Idly</li>
+                    <li>Dosai</li>
+                    <li>Parotta</li>
+                    <li>Vada</li>
+					<li>Briyaani</li>
+                </ul><hr>
+				<h3>Famous Temples In Tenkasi</h3>
+				    <ul>
+					   <li>Kasi Vishwanathar Temple</li>
+					   <li>Thoranamalai Murugan Temple</li>
+					   <li>Thirumalai Temple</li>
+					   <li>Nellaiappar Temple</li>
+					</ul><hr>
+					<h3>Courtallam Falls Video</h3><hr>
+					<video src="D:\fabevy\practice\html\video\courtallam.mp4" alt="courtallam" width="300px" height="300px" controls>Courtallam</video><br><br><hr><br><br>
+					<iframe width="300" height="300" src="https://www.youtube.com/embed/wnGqcI3MUVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<h1>தென்காசி மாவட்டம்</h1>
+				<ul>
+				   <li>செய்திகள்</li>
+				   <li>தகவல்கள்</li>
+				</ul>   
+	    </section>
+	    <section class="content">
+            <h3>குற்றாலம் (Courtalam)</h3>
+			    <p class="align">குற்றாலம் (Courtalam), இந்தியாவின் தமிழ்நாடு மாநிலத்தில் தென்காசி மாவட்டத்தில் அமைந்துள்ள ஒரு சிறப்புநிலை பேரூராட்சி ஆகும். மழைக்காலத்தில் இங்கு விழும் அருவிகளில் குளிப்பதற்காகச் சுற்றுலாப் பயணிகள் பல பகுதிகளில் இருந்தும் இங்கு வருகின்றனர். இங்குள்ள திருக்குற்றாலம் குற்றாலநாதர் கோயிலால் இவ்வூர் இப்பெயர் பெற்றது.</P>
+				<img src="D:\fabevy\practice\html\img\courtallam.jpg" alt="forest" height="300px" width="600" align="center">
+				<p>Fig.Courtallam Five Falls</p>
+				<p>குற்றால அருவிகள் தென் தமிழகத்தில் திருநெல்வேலி மாவட்டத்தில் மேற்குத் தொடர்ச்சி மலையில் அமைந்துள்ளது. இந்த மலையானது சிற்றாறு, மணிமுத்தாறு, பச்சையாறு மற்றும் தாமிரபரணி ஆகிய ஆறுகளின் பிறப்பிடமாகும். குற்றால அருவிக்கரையில் குற்றால நாதர் (சிவன்) சன்னதி உள்ளது. குற்றாலத்தில் மொத்தம் ஒன்பது அருவிகள் அமைந்துள்ளன.</p>
+			 <li>பேரருவி</li>
+			 <li>ஐந்தருவி</li> 
+			 <li>சிற்றருவி</li>
+			 <li>பாலருவி</li>
+			 <li>புலியருவி</li>
+			 <li>பழத்தோட்டஅருவி</li>
+			 <li>சென்பகாதேவியருவி</li>
+			 <li>பழையகுற்றால அருவி,</li>
+			 <li>தேனருவி</li>
+			</u> 
+			<p> இந்த அருவிகளில் இருந்து கிளம்பும் சாரல் வெகு தொலைவு வரை தென்படும்.</p><br><hr>
+			<h3>குற்றாலம் பற்றிய சிறப்பு கவிதை</h3><br>
+			<p>மூலிகை முத்துக்களை முதுகினில் சுமந்திங்கே முன்னூறு காததூரம் மூச்சுவாங்க ஓடிவந்து மூப்பிற்கு திரைபோடும் ஞானபுரிக் குற்றாலம்!! ஆண்டில் முத்திங்கள் அழகாக விழுகிறதே! அகன்றோடும் இந்நீரோ! ஆரவாரம் சிறிதின்றி ஆழியில் கலக்கிறதே! விழுநீரை வீணாக்கா வீதிதோறும் வந்திடவே விடையொன்று காண்பீரோ?!!</P>
+	    </section>
+        <aside>
+	        <h3>Advertisement</h3>
+			<h4>Resorts In Courtallam</h4>
+			<img src="D:\fabevy\practice\html\img\mango.jpg" alt="mango height="300px" width="300px" align="center" target="-blank">
+			<a href="https://business.google.com/website/mango-resorts">Mango Resort</a>
+			<img src="D:\fabevy\practice\html\img\esakki.jpg" alt="esakki resorts height="300px" width="300" align="center" target="-blank">
+			<a href="http://www.esakkiresorts.com/">Esakki Resort</a>
+			<img src="D:\fabevy\practice\html\img\saral.jpg" alt="saral resorts height="300px" width="300" align="center" target="-blank">
+			<a href="https://www.saaralresort.com/">Saaral Resort</a>
+			<img src="D:\fabevy\practice\html\img\laughing.jpg" alt="Laughing water resorts height="300px" width="300" align="center" target="-blank">
+			<a href="http://www.laughingwaters.in/">Laughing Water Resort</a><br><hr>
+			<p>Book in 150,000 destinations across the world. Booking.com's official site. Get Instant Confirmation. Save 10% with Genius. Hostels. Bed and Breakfasts. We speak your language. Best Price Guarantee. Apartments. Villas. 24/7 Customer Service.</p>
+			<form>
+			<label for="search">Search</label>
+			<input type="search" id="search" placeholder="search">
+			</form>
+			
+			
+	    </aside>
+    </main>
+    <footer>
+	    <a href="">Mainpage</a>
+		<a href="">About Us</a>
+		<a href="">Advertising</a>
+		<a href="">Disclaimer</a>
+		<a href="">Contact us</a>
+	</footer>
+	
+	 
+		
+</body>
+</html>
