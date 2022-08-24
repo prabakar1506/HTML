@@ -1,0 +1,48 @@
+ body{
+	 background-image:url('./juicebar.jpg');
+      text-align:justify;
+     }	  
+    h1{
+	  background-color:yellow;
+      font-family:sans serif;
+	  text-align:center;
+	  color:black;
+	  font-weight:200px;
+    }	 
+.cafe
+    {	
+     display:flex;
+	 height:3000px;
+	}
+	ul{
+		list-style-type:none;
+	}
+.juice
+    {
+    background-color:yellow;
+	font-family:Mistral;
+	font-size:30px;
+	flex-grow:1;
+	text-align:left;
+	
+	}
+.coffee
+    {
+    background-color:yellow;
+	font-size:20px;
+	flex-basis:300px;
+	}
+aside
+    {
+     background-color:yellow;
+	 text-align:center;
+	 flex-basis:300px;
+	}
+footer
+    {
+     background-color:grey;
+	 justify-content:space-between;
+	 display:flex;
+	 height:50px;
+	 
+	}
