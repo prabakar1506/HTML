@@ -145,7 +145,7 @@ ul>li>a:hover{
 	  height:300px;
 	  background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
 	  position:absolute;
-	  padding:25px;
+	  padding:20px;
 	  padding-top:70px;
 	  left:70%;
 	  top:30%;
@@ -157,5 +157,9 @@ ul>li>a:hover{
 	border:2px solid #ff7200;
 	border-radius:50px;
 }
+form >a:hover{
+	          color:orange;
+	 
+             }
 		   
 	   
